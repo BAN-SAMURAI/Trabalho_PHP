@@ -21,10 +21,52 @@ imagem 3
 * **Servidor:** Apache XAMPP.
 
 # *Codigo SQL:*
+Criação da tabela users:
+'''CREATE TABLE users (
+    user_id INT AUTO_INCREMENT PRIMARY KEY,
+    user_name VARCHAR(100) NOT NULL,
+    user_email VARCHAR(150) NOT NULL UNIQUE,
+    user_password VARCHAR(255) NOT NULL
+);'''
 
+Criação da tabela alunos:
+'''CREATE TABLE alunos (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    data_nascimento DATE NOT NULL,
+    cidade VARCHAR(100),
+    rua VARCHAR(255),
+    bairro VARCHAR(100),
+    numero VARCHAR(20),
+    cep VARCHAR(10),
+    nome_responsavel VARCHAR(255),
+    tipo_responsavel VARCHAR(50),
+    curso VARCHAR(100) NOT NULL,
+    data_cadastro TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);'''
 
 # *Consultas:*
 
+* Consulta 1:
+  
+* Consulta 1:
+
+* Consulta 1:
+   
+* Consulta 1:
+  
+* Consulta 1:
+   
+* Consulta 1:
+  
+* Consulta 1:
+  
+* Consulta 1:
+   
+* Consulta 1:
+   
+* Consulta 1:
+  
 
 
 # *Conclusão:*
